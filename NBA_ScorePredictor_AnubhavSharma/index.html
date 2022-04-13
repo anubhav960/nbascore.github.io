@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>NBA Score Predictor | Pet Project</title>  <!--title-->
+</head>
+
+<body>
+
+  <div class="col-4 col-xs-3 offset-4 offset-xs-3">
+    <label for="header_image">
+      <img name="header_image" id="header_image1" src="./images/logo.png" width="150" height="650" />
+    </label>
+  </div>
+
+  <section>
+    <div>
+      <button class="btn btn--new" style="left: 270px;" value="LAKERS" id="team"><img src="images/lakers.png"
+          alt="Avatar" style="width:70%"></button>
+      <button class="btn btn--new" style="left: 455px;" value="WARRIORS" id="team"><img src="images/warriors.png"
+          alt="Avatar" style="width:37%"></button>
+      <button class="btn btn--new" style="left: 637px;" value="SUNS" id="team"><img src="images/suns.png" alt="Avatar"
+          style="width:45%"></button>
+      <button class="btn btn--new" style="left: 818px;" value="MAVERICKS" id="team"><img src="images/dallas.png"
+          alt="Avatar" style="width:46%"></button>
+      <button class="btn btn--new" style="left: 1000px;" value="RAPTORS" id="team"><img src="images/raptors.png"
+          alt="Avatar" style="width:46%"></button>
+      <button class="btn btn--new" style="left: 1180px;" value="BUCKS" id="team"><img src="images/bucks.png"
+          alt="Avatar" style="width:40%"></button>
+    </div>
+  </section>
+  <main>
+    <!-- MAIN SCREEN APPLICATION -->
+    <section class="player player--0 player--active">
+      <h2 class="name" id="name--0">HOME</h2>
+      <p class="score" id="score--0">43</p>
+    </section>
+    <section class="player player--1">
+      <h2 class="name" id="name--1">AWAY</h2>
+      <p class="score" id="score--1">24</p>
+    </section>
+
+
+    <button class="btn btn--hold">&#127936; Predict NBA Score &#127936; </button>
+  </main>
+  <script src="script.js"></script>  <!--linking js file-->
+</body>
+
+</html>
